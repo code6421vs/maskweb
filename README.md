@@ -2,6 +2,10 @@
 
 簡單的口罩地圖，使用 openstreetmap 及 leaflet
 
+# 網站
+
+https://map.code6421.cc
+
 # 資料來源
 
 https://g0v.hackmd.io/@kiang/mask-info (暫時掛了好像)
