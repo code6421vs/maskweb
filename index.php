@@ -6,11 +6,8 @@
     <meta charset="utf-8">    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" crossorigin=""/>    
     <link rel="stylesheet" href="css/style.css"/>    
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" crossorigin=""></script>
-<script>
-    var map;
-</script>
-<script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://unpkg.com/jquery"></script>
   </head>  
   <body>
    <div id="map"></div>
