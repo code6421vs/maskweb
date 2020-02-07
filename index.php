@@ -11,6 +11,6 @@
   </head>  
   <body>
    <div id="map"></div>
-   <script src="js/index.js?x=123"></script>
+   <script src="js/index.js?x=124"></script>
 </body>
 </html>

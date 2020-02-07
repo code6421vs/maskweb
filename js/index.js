@@ -89,7 +89,7 @@ navigator.geolocation.getCurrentPosition(function (position) {
                 var marker = L.marker([field.geometry.coordinates[1], field.geometry.coordinates[0]], { icon: iconUsed }).bindTooltip(tip,
                     {
                         permanent: true,
-                        direction: 'right'
+                        direction: 'auto'
                     });
                 marker.bindPopup("<p>" + field.properties.phone + "<p><a href='https://www.google.com.tw/maps/place/" +
                     field.properties.address + "' target='_blank'/>" + field.properties.address + "</a><p>大:" + adultNum + "&nbsp&nbsp小:" + childNum);
