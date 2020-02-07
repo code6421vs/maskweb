@@ -1,6 +1,3 @@
-//const apiUrl = 'https://api.code6421.cc/v1/near';
-const apiUrl = 'http://localhost:8002/v1/near';
-
 function createIcon(iconType) {
     if (iconType == 'green') {
         return new L.Icon({
