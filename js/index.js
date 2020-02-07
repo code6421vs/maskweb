@@ -71,7 +71,7 @@ navigator.geolocation.getCurrentPosition(function (position) {
     marker.addTo(map);
 
     var now = new Date;
-    var cacheStr = now.getUTCFullYear().toString() + now.getUTCMonth().toString() + now.getUTCDate().toString() + now.getUTCHours().toString() + (now.getUTCMinutes() / 10).toString();
+    var cacheStr = now.getUTCFullYear().toString() + now.getUTCMonth().toString().padStart(2, '0') + now.getUTCDate().toString().padStart(2, '0') + now.getUTCHours().toString().padStart(2, '0') + Math.floor(now.getUTCMinutes() / 10).toString();
     var nearRange = getAround(position.coords.latitude, position.coords.longitude, 5000);
 
     $.getJSON("https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json?ct=" + cacheStr, function (data) {
